@@ -1,0 +1,68 @@
+body{
+  background-color: #F1F1F1;
+}
+:root{
+  --main-color:#F96732
+}
+
+
+nav,.footer,.btns,.colored-bg{
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+.btns:hover{
+  background-color: #fe7340;
+  color: #ffffff;
+}
+.BrandLogo{
+  width: 8rem;
+}
+.colored-icon,.colored{
+  color:var(--main-color) !important ;
+}
+.tag::after{
+  content: "";
+  position: absolute;
+  width: 10rem;
+  height: .2rem;
+  top: 100%;
+  left: 1%;
+  background-color  : var(--main-color);
+}
+.tags::after{
+  content: "";
+  position: absolute;
+  width: 16rem;
+  height: .2rem;
+  top: 100%;
+  left: 1%;
+  background-color  : var(--main-color);
+}
+.tag-ss::after{
+  content: "";
+  position: absolute;
+  width: 7rem;
+  height: .2rem;
+  top: 100%;
+  left: 1%;
+  background-color  : var(--main-color);
+}
+
+.hover{
+  transition: all .5s;
+  cursor: pointer;
+}
+.hover:hover{
+  color:var(--main-color)  ;
+}
+.CartNum{
+  background-color: #ffffff;
+  width: 1.4rem;
+  text-align: center;
+  font-weight: bold;
+  left: 50%;
+  height: 1.4rem;
+  top: -30%;
+  border-radius: 50%;
+  color: var(--main-color);
+}
